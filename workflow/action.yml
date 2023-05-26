@@ -23,3 +23,8 @@ jobs:
 
       - name: Run pytest
         run: pytest
+      - name: show
+        run: -ls -la
+      - name : print
+        run: echo haha
+      
